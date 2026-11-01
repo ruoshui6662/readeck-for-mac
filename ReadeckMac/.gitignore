@@ -1,0 +1,20 @@
+.build*/
+.cache/
+.work/
+dist*/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+.env
+.env.*
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+
+# Local live-site probes may contain user-provided article links and fixtures.
+Tests/ReadeckMacTests/*LiveValidationTests.swift
+Tests/ReadeckMacTests/DoubanBilibiliLiveTests.swift
+Tests/ReadeckMacTests/PublicArticleProbeTests.swift
+Tests/ReadeckMacTests/ITHomeReaderUITests.swift
+Tests/ReadeckMacTests/RednoteArchiveValidationTests.swift

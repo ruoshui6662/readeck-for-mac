@@ -1,0 +1,21 @@
+# Only the client and the public repository documents are tracked.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/NOTICE.md
+!/ReadeckMac/
+!/docs/
+/docs/*
+!/docs/REPOSITORY.md
+
+# Local-only assets, historical builds, application data and OS files.
+.DS_Store
+*.xcuserstate
+xcuserdata/
+.env
+.env.*
+*.sqlite
+*.sqlite-*
+*.db
+*.log

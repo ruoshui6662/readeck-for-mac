@@ -1,0 +1,80 @@
+[
+  {
+    "id": "27992",
+    "filename": "art-27992.jpg",
+    "title": "A Sunday on La Grande Jatte — 1884",
+    "artist": "Georges Seurat",
+    "date": "1884–86, border added 1888–89",
+    "source": "https://www.artic.edu/artworks/27992",
+    "metadata": "https://api.artic.edu/api/v1/artworks/27992?fields=id,title,artist_display,date_display,is_public_domain,image_id,artist_title",
+    "image": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+    "license": "CC0-1.0",
+    "isPublicDomain": true,
+    "sha256": "90197c037e6041fcae1c35606b921b5b626d868c2ff21cd653edb640b3f6e2dd"
+  },
+  {
+    "id": "20684",
+    "filename": "art-20684.jpg",
+    "title": "Paris Street; Rainy Day",
+    "artist": "Gustave Caillebotte",
+    "date": "1877",
+    "source": "https://www.artic.edu/artworks/20684",
+    "metadata": "https://api.artic.edu/api/v1/artworks/20684?fields=id,title,artist_display,date_display,is_public_domain,image_id,artist_title",
+    "image": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/843,/0/default.jpg",
+    "license": "CC0-1.0",
+    "isPublicDomain": true,
+    "sha256": "f5d9c180247acb3fe0977135ae80f4da65c41dc5163be06ed0e0be1172d0bf16"
+  },
+  {
+    "id": "28560",
+    "filename": "art-28560.jpg",
+    "title": "The Bedroom",
+    "artist": "Vincent van Gogh",
+    "date": "1889",
+    "source": "https://www.artic.edu/artworks/28560",
+    "metadata": "https://api.artic.edu/api/v1/artworks/28560?fields=id,title,artist_display,date_display,is_public_domain,image_id,artist_title",
+    "image": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
+    "license": "CC0-1.0",
+    "isPublicDomain": true,
+    "sha256": "cb5839d854aa1a092801939b8d732fa653f22a1c87fdbbd7248c9882250ce400"
+  },
+  {
+    "id": "16568",
+    "filename": "art-16568.jpg",
+    "title": "Water Lilies",
+    "artist": "Claude Monet",
+    "date": "1906",
+    "source": "https://www.artic.edu/artworks/16568",
+    "metadata": "https://api.artic.edu/api/v1/artworks/16568?fields=id,title,artist_display,date_display,is_public_domain,image_id,artist_title",
+    "image": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+    "license": "CC0-1.0",
+    "isPublicDomain": true,
+    "sha256": "06367197ac8d6745537dcfe6722ff4b8ef2cb33e044168d8c471782b55f7dd39"
+  },
+  {
+    "id": "24645",
+    "filename": "art-24645.jpg",
+    "title": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjūrokkei)\"",
+    "artist": "Katsushika Hokusai",
+    "date": "1830/33",
+    "source": "https://www.artic.edu/artworks/24645",
+    "metadata": "https://api.artic.edu/api/v1/artworks/24645?fields=id,title,artist_display,date_display,is_public_domain,image_id,artist_title",
+    "image": "https://www.artic.edu/iiif/2/b3974542-b9b4-7568-fc4b-966738f61d78/full/843,/0/default.jpg",
+    "license": "CC0-1.0",
+    "isPublicDomain": true,
+    "sha256": "e0aa55ad5865f5ffa3e0fb7087e91a1e11ce5d7f13f392ba0f493c513b7f0f56"
+  },
+  {
+    "id": "81558",
+    "filename": "art-81558.jpg",
+    "title": "Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg)",
+    "artist": "Pierre-Auguste Renoir",
+    "date": "1879",
+    "source": "https://www.artic.edu/artworks/81558",
+    "metadata": "https://api.artic.edu/api/v1/artworks/81558?fields=id,title,artist_display,date_display,is_public_domain,image_id,artist_title",
+    "image": "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/843,/0/default.jpg",
+    "license": "CC0-1.0",
+    "isPublicDomain": true,
+    "sha256": "402bc47c7b84cc26816808d1fbf81bbadfb0d5c766da8b9325945161b6a533af"
+  }
+]

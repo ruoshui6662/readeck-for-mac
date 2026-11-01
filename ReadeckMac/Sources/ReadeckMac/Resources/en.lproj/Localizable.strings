@@ -1,0 +1,404 @@
+"资料库" = "Library";
+"保存网页" = "Save Webpage";
+"立即同步" = "Sync Now";
+"取消同步" = "Cancel Sync";
+"列表" = "List";
+"卡片" = "Cards";
+"显示方式" = "View Style";
+"写批注" = "Add Note";
+"复制" = "Copy";
+"划线与批注" = "Highlights & Notes";
+"关闭批注栏" = "Close Notes Sidebar";
+"还没有划线" = "No Highlights Yet";
+"选中文字，在选区附近划线或写批注。" = "Select text to highlight or add a note nearby.";
+"编辑批注" = "Edit Note";
+"保存" = "Save";
+"取消" = "Cancel";
+"正在保存…" = "Saving…";
+"定位原文" = "Show in Article";
+"保留未保存的批注？" = "Keep the unsaved note?";
+"继续编辑" = "Keep Editing";
+"放弃更改" = "Discard Changes";
+"先保存在本机，联网后同步到 NAS。" = "Saved locally first, then synced to your NAS.";
+"批注内容" = "Note";
+"艺术封面来源" = "Artwork Credits";
+"未读" = "Unread";
+"阅读中" = "Reading";
+"收件箱" = "Inbox";
+"星标" = "Starred";
+"已归档" = "Archived";
+"分类" = "Categories";
+"标签" = "Tags";
+"分类待整理" = "Categories to Review";
+"智能列表" = "Smart Lists";
+"我的收藏" = "My Collection";
+"阅读设置" = "Reading Settings";
+"文章" = "Article";
+"文章信息" = "Article Info";
+"整理分类与标签" = "Organize Categories & Tags";
+"删除文章…" = "Delete Article…";
+"复制原链接" = "Copy Original URL";
+"在浏览器打开原网页" = "Open Original in Browser";
+"返回收藏列表" = "Back to Collection";
+"添加标签…" = "Add Tags…";
+"未分类" = "Uncategorized";
+"查看划线与批注" = "Show Highlights & Notes";
+"黄色" = "Yellow";
+"红色" = "Red";
+"绿色" = "Green";
+"蓝色" = "Blue";
+"黄色划线" = "Highlight in Yellow";
+"红色划线" = "Highlight in Red";
+"绿色划线" = "Highlight in Green";
+"蓝色划线" = "Highlight in Blue";
+"打开文章" = "Open Article";
+"重命名文章…" = "Rename Article…";
+"重命名文章" = "Rename Article";
+"文章标题" = "Article Title";
+"微信采集任务" = "WeChat Captures";
+"正文和图片采集完成后上传到 NAS；需要验证时会打开采集窗口。" = "Text and images are uploaded to your NAS after capture. A capture window opens if verification is needed.";
+"暂无采集任务" = "No Captures";
+"微信文章" = "WeChat Article";
+"打开原文" = "Open Original";
+"显示采集窗口" = "Show Capture Window";
+"重新采集" = "Capture Again";
+"核对结果" = "Check Result";
+"取消任务" = "Cancel Capture";
+"等待采集" = "Waiting to Capture";
+"导入网页文件" = "Importing Saved Page";
+"采集正文与图片" = "Capturing Text and Images";
+"需要完成网页验证" = "Page Verification Needed";
+"等待上传" = "Waiting to Upload";
+"上传到 NAS" = "Uploading to NAS";
+"确认上传结果" = "Checking Upload Result";
+"验证 NAS 归档" = "Verifying NAS Archive";
+"已保存到 NAS" = "Saved to NAS";
+"采集暂停" = "Capture Paused";
+"已取消" = "Cancelled";
+"查看采集任务" = "View Captures";
+"手动重新上传…" = "Upload Again Manually…";
+"确认 NAS 中没有这篇文章？" = "Confirm This Article Is Not on Your NAS?";
+"我已核对，重新上传" = "Checked — Upload Again";
+"上次上传结果不明确。请先在 NAS 中核对；如果已经保存，重新上传可能产生重复文章。" = "The previous upload result is unknown. Check your NAS first. Uploading again may create a duplicate if it was already saved.";
+"未验证成功的采集文件会保留，不受阅读缓存清理影响。上传结果不明确时不会自动重发。" = "Unverified capture files are retained separately from reading caches. Uncertain uploads are never automatically resent.";
+"导入已保存的网页…" = "Import Saved Page…";
+"可导入同一篇文章的 WebArchive 或含嵌入图片的 HTML；不会读取相邻文件或自动抓取外链图片。" = "Import a WebArchive or HTML with embedded images for the same article. Adjacent files and external image links are not fetched.";
+"待完成采集文件" = "Pending Capture Files";
+"旧版微信图片文件" = "Legacy WeChat Images";
+"旧版文件暂时保留，不会在升级时自动删除。" = "Legacy files are retained during upgrades.";
+"阅读图片按需从 NAS 加载。微信采集文件在归档验证成功后移除；失败任务保留，可在采集任务中取消尚未上传的任务以释放空间。" = "Reading images load from your NAS on demand. Capture files are removed after archive verification. Failed captures are retained; cancel an unsent capture to free its space.";
+"打开 NAS" = "Open NAS";
+"分类与标签" = "Categories & Tags";
+"分类与标签…" = "Categories & Tags…";
+"新建、删除和固定常用标签请到“资料库 → 分类与标签…”。" = "Create, delete, or pin tags in Library → Categories & Tags….";
+"新建或删除分类请到“资料库 → 分类与标签…”。" = "Create or delete categories in Library → Categories & Tags….";
+
+"本机采集预览" = "Local Capture Preview";
+
+"仅供核对内容；NAS 验证完成后可在资料库阅读和批注。" = "Review this local copy. Read and annotate in the library after NAS verification.";
+
+"本机预览" = "Local Preview";
+
+"采集详情" = "Capture Details";
+
+"更多" = "More";
+
+"本机采集文件暂不可用，请重新采集。" = "The local capture is unavailable. Capture the article again.";
+
+"图片 %lld/%lld" = "Images %1$lld/%2$lld";
+
+"%lld 个交互组件已保留说明" = "Descriptions preserved for %lld interactive components";
+
+"整理旧临时采集文件" = "Clean Up Old Capture Scratch Files";
+
+"采集失败与待同步文件会保留；取消任务可释放对应空间。低空间时暂停新采集包写入。" = "Failed and pending captures are preserved. Cancel a task to release its files. New package writes pause when disk space is low.";
+
+"已整理 %lld 项旧临时采集文件，待同步任务已保留。" = "Cleaned up %lld old temporary captures. Pending tasks were preserved.";
+
+"采集文件整理未完成，请稍后重试。" = "Capture cleanup could not finish. Try again later.";
+
+"图文排版" = "Text & Images";
+
+"图片间距" = "Image Spacing";
+
+"图片宽度" = "Image Width";
+
+"对齐方式" = "Alignment";
+
+"左对齐" = "Left";
+
+"两端对齐" = "Justified";
+
+"正文首行缩进" = "Indent First Line";
+
+"使用统一排版" = "Use Unified Layout";
+
+"使用兼容排版" = "Use Compatibility Layout";
+
+"统一正文、图片间距与段落风格" = "Apply a consistent style to text, images, and paragraphs";
+
+"批量整理" = "Organize Articles";
+
+"批量整理记录" = "Bulk Activity";
+
+"保持原分类" = "Keep Current Categories";
+
+"批量分类" = "Category for Selected Articles";
+
+"应用更改" = "Apply Changes";
+
+"添加标签" = "Add Tags";
+
+"移除标签" = "Remove Tags";
+
+"标签操作" = "Tag Action";
+
+"搜索已有标签" = "Search Existing Tags";
+
+"仅替换分类，每篇文章的其他标签会保留。" = "Only the category changes. Each article keeps its other tags.";
+
+"部分文章的标签资料将在应用前从 NAS 补齐。" = "Missing tag details will be fetched from your NAS before applying.";
+
+"先保存到本机，联网后同步到 NAS。创建分类或标签请到管理窗口。" = "Saved locally, then synced to your NAS. Create categories and tags in the management window.";
+
+"已选 %lld 篇文章" = "%lld Articles Selected";
+
+"已选 %lld 篇" = "%lld Selected";
+
+"%lld/%lld 篇使用" = "Used by %1$lld/%2$lld Articles";
+
+"添加 %lld 个 · 移除 %lld 个" = "Add %1$lld · Remove %2$lld";
+
+"设为星标" = "Star";
+
+"取消星标" = "Unstar";
+
+"移回收件箱" = "Move to Inbox";
+
+"永久删除所选文章…" = "Permanently Delete Selected Articles…";
+
+"永久删除所选文章？" = "Permanently Delete Selected Articles?";
+
+"仅 NAS 已确认的项目显示为已确认，问题项目会保留。" = "Items are confirmed only after NAS verification. Unfinished items are retained.";
+
+"存在冲突" = "Conflict";
+
+"未完成" = "Unfinished";
+
+"无需更改" = "No Change Needed";
+
+"已被后续处理替代" = "Superseded";
+
+"采用本机" = "Keep Local";
+
+"采用 NAS" = "Use NAS Version";
+
+"移除本机更改" = "Discard Local Change";
+
+"重试未完成项目" = "Retry Unfinished Items";
+
+"全选当前列表" = "Select All in Current List";
+
+"清除选择" = "Clear Selection";
+
+"整理" = "Organize";
+
+"选择文章，批量整理" = "Select Articles to Organize";
+
+"查看批量记录" = "View Bulk Activity";
+
+"关闭提示" = "Dismiss Message";
+
+"同一标签不能同时添加和移除。" = "A tag cannot be added and removed at the same time.";
+
+"请先选择文章。" = "Select articles first.";
+
+"分类或标签已发生变化，请刷新后重试。" = "Categories or tags have changed. Refresh and try again.";
+
+"这项更改已被后续编辑或删除替代。" = "A later edit or deletion superseded this change.";
+
+"文章已在删除队列中。" = "This article is already queued for deletion.";
+
+"本批次已处理 · %lld 篇已确认" = "Batch Processed · %lld Confirmed";
+
+"%lld 篇 · %lld 篇已确认 · %lld 篇待处理" = "%1$lld Articles · %2$lld Confirmed · %3$lld Unfinished";
+
+"已保存到本机，%lld 篇待同步。" = "Saved Locally · %lld Articles Awaiting Sync";
+
+"所选文章无需新增更改。" = "No new changes are needed for the selected articles.";
+
+"“%@”缺少完整标签资料，请联网刷新后重试。" = "“%@” needs complete tag details. Connect and refresh before retrying.";
+
+"“%@”缺少完整本机资料，请先刷新。" = "“%@” needs complete local metadata. Refresh first.";
+
+"将永久删除 %lld 篇文章及其划线批注，无法撤销。" = "Permanently delete %lld articles and their highlights and notes. This cannot be undone.";
+
+"选择文章" = "Select Articles";
+"完成选择" = "Finish Selection";
+"采集任务…" = "Capture Tasks…";
+"更多资料库操作" = "More Library Actions";
+"更多所选文章操作" = "More Selected Article Actions";
+"切换卡片或列表" = "Switch between Cards and List";
+"批量设置或取消星标" = "Star or Unstar Selected Articles";
+"批量归档或移回收件箱" = "Archive or Move Selected Articles to Inbox";
+"保存网页（⌘N）" = "Save Webpage (⌘N)";
+"排版" = "Appearance";
+"笔记" = "Notes";
+"已展开" = "Expanded";
+"已收起" = "Collapsed";
+"退出专注阅读" = "Exit Focused Reading";
+"专注阅读" = "Focused Reading";
+"设置…" = "Settings…";
+"已同步 · %@前" = "Synced · %@ ago";
+"字体、字号、间距与主题" = "Font, Size, Spacing and Theme";
+"更多文章操作" = "More Article Actions";
+
+"批量整理记录…" = "Bulk Activity…";
+
+"排版…" = "Appearance…";
+"隐藏笔记" = "Hide Notes";
+"显示笔记" = "Show Notes";
+"紧凑" = "Compact";
+"舒适" = "Comfort";
+"大字" = "Large";
+"字体" = "Font";
+"系统默认" = "System";
+"苹方" = "PingFang";
+"宋体" = "Songti";
+"衬线" = "Serif";
+"等宽" = "Mono";
+"其他已安装字体…" = "More Installed Fonts…";
+"阅读字体" = "Reading Font";
+"字号" = "Size";
+"行距" = "Line";
+"正文宽度" = "Width";
+"更多排版" = "More Layout";
+"段距" = "Paragraph";
+"字距" = "Tracking";
+"主题" = "Theme";
+"系统" = "Auto";
+"浅色" = "Light";
+"暖纸" = "Paper";
+"深色" = "Dark";
+"恢复默认" = "Reset Defaults";
+"排版预设" = "Reading Preset";
+"数值" = "Value";
+"倍" = "×";
+"本机字体" = "Installed Fonts";
+"搜索字体名称" = "Search Fonts";
+"使用已安装字体，不需要下载。" = "Choose an installed font. No download required.";
+
+"切换为亮色" = "Switch to Light";
+
+"切换为暗色" = "Switch to Dark";
+
+"亮色" = "Light";
+
+"暗色" = "Dark";
+
+"目录与笔记" = "Contents & Notes";
+
+"查看目录、划线与批注" = "Show contents, highlights and notes";
+
+"在文章中查找" = "Find in Article";
+
+"在文章中查找…" = "Find in Article…";
+
+"文章目录" = "Table of Contents";
+
+"目录" = "Contents";
+
+"阅读侧栏" = "Reading Sidebar";
+
+"关闭阅读侧栏" = "Close Reading Sidebar";
+
+"隐藏阅读侧栏" = "Hide Reading Sidebar";
+
+"显示阅读侧栏" = "Show Reading Sidebar";
+
+"上一处" = "Previous Match";
+
+"下一处" = "Next Match";
+
+"上一处（⇧⌘G）" = "Previous Match (⇧⌘G)";
+
+"下一处（⌘G）" = "Next Match (⌘G)";
+
+"查找结果" = "Find Results";
+
+"无匹配" = "No Matches";
+
+"正在读取目录…" = "Loading contents…";
+
+"这篇文章没有目录" = "No Table of Contents";
+
+"文章没有可用的章节标题，仍可使用文内查找。" = "This article has no section headings. You can still search its text.";
+
+"跳转到章节" = "Go to Section";
+
+"目录样式" = "Contents Style";
+
+"沉浸式" = "Immersive";
+
+"经典面板" = "Classic Panel";
+
+"当前章节" = "Current Section";
+
+"列表密度" = "List Density";
+
+"显示缩略图" = "Show Thumbnails";
+
+"最近保存" = "Recently Saved";
+
+"标题 A–Z" = "Title A–Z";
+
+"%lld 篇收藏" = "%lld articles";
+
+"标准" = "Standard";
+
+"排序" = "Sort";
+
+"已读" = "Read";
+
+"打开阅读" = "Open Article";
+
+"阅读进度" = "Reading Progress";
+
+"标记为已读" = "Mark as Read";
+
+"网页采集任务" = "Web Captures";
+
+"网页文章" = "Web Article";
+
+"图片顺序或清晰度与本机采集不符，保留本机采集文件。" = "Image order or resolution differs from the local capture. Local files have been retained.";
+
+"阅读图片按需从 NAS 加载。网页采集文件在归档验证成功后移除；失败任务保留，可在采集任务中取消尚未上传的任务以释放空间。" = "Reading images load from your NAS on demand. Capture files are removed after archive verification. Failed captures are retained; cancel an unsent capture to free its space.";
+
+"小红书采集尚在验证中，当前支持微信和百度百科。" = "Xiaohongshu capture is still being validated. WeChat and Baidu Baike are currently supported.";
+
+"由 Mac 采集百科正文与图片，完成后自动上传到 NAS。" = "Your Mac captures the encyclopedia text and images, then uploads them to your NAS.";
+
+"选择网页文件…" = "Choose Webpage File…";
+"自动采集图文和图片，完成后保存到 NAS。视频笔记仅保存封面与配文。" = "Capture the post and photos automatically, then save to NAS. Video posts save only the cover and caption.";
+
+"重新导入网页…" = "Reimport Webpage…";
+
+"请重新导入浏览器单文件网页。" = "Please reimport a single-file webpage saved by your browser.";
+
+"小红书请在“保存网页”中导入浏览器单文件网页。" = "For Rednote, import a browser single-file webpage in Save Webpage.";
+"小红书自动采集已停用；可导入已保存的网页文件。" = "Automatic Rednote capture is paused. You can import a saved webpage file.";
+"抓取失败" = "Capture failed";
+"抓取有异常" = "Capture encountered an issue";
+"小红书自动采集已停用；任务和本机文件已保留。" = "Automatic Rednote capture is paused. The task and local files were kept.";
+"小红书链接自动采集已暂停。如需保存，可导入浏览器已保存的单文件网页。" = "Automatic Rednote link capture is paused. Import a saved single-file webpage if needed.";
+
+"在浏览器中打开笔记，选择“页面存储为 → 网页（单个文件）”。Mac 会从小红书图片服务器补齐缺图，再保存到 NAS；仅支持静态图文。" = "Open the note in your browser and choose Save Page As → Webpage, Single File. Mac retrieves missing images from Rednote before saving to NAS. Static image posts only.";
+
+"展开目录" = "Show Table of Contents";
+"收起目录" = "Hide Table of Contents";
+
+"同步与采集" = "Sync & Capture";
+"同步状态…" = "Sync Status…";
+
+"有未完成的采集任务" = "Capture needs attention";
+"查看" = "View";
