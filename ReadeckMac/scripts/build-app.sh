@@ -11,7 +11,7 @@ export SWIFTPM_CACHE_PATH="$project_dir/.cache/swiftpm"
 assert_app_closed() {
     local process_result
     if process_result="$(pgrep -x ReadeckMac 2>&1)"; then
-        print -u2 "Readeck Mac 正在运行。请先退出应用再打包，避免替换正在使用的签名与权限身份。"
+        print -u2 "Readeck 正在运行。请先退出应用再打包，避免替换正在使用的签名与权限身份。"
         exit 1
     else
         local probe_code=$?
@@ -22,15 +22,25 @@ assert_app_closed() {
     fi
 }
 
-app_dir="${READECK_APP_OUTPUT:-$project_dir/dist/Readeck Mac.app}"
-if [[ "$app_dir" == "$project_dir/dist/Readeck Mac.app" ]]; then assert_app_closed; fi
+app_dir="${READECK_APP_OUTPUT:-$project_dir/dist/Readeck.app}"
+if [[ "$app_dir" == "$project_dir/dist/Readeck.app" ]]; then assert_app_closed; fi
 swift build --disable-sandbox --scratch-path .build -c debug
-if [[ "$app_dir" == "$project_dir/dist/Readeck Mac.app" ]]; then assert_app_closed; fi
+if [[ "$app_dir" == "$project_dir/dist/Readeck.app" ]]; then assert_app_closed; fi
 mkdir -p "$app_dir/Contents/MacOS"
 cp .build/debug/ReadeckMac "$app_dir/Contents/MacOS/ReadeckMac"
 cp Info.plist "$app_dir/Contents/Info.plist"
 mkdir -p "$app_dir/Contents/Resources"
 cp -Rf Sources/ReadeckMac/Resources/. "$app_dir/Contents/Resources/"
+icon_work="$(mktemp -d "${TMPDIR:-/tmp}/readeck-icon.XXXXXXXX")"
+trap 'rm -rf "$icon_work"' EXIT
+mkdir "$icon_work/AppIcon.iconset"
+icon_source="Sources/ReadeckMac/Resources/Branding/readeck-upstream.png"
+for size in 16 32 128 256 512; do
+    sips -z "$size" "$size" "$icon_source" --out "$icon_work/AppIcon.iconset/icon_${size}x${size}.png" >/dev/null
+    doubled=$((size * 2))
+    sips -z "$doubled" "$doubled" "$icon_source" --out "$icon_work/AppIcon.iconset/icon_${size}x${size}@2x.png" >/dev/null
+done
+iconutil -c icns "$icon_work/AppIcon.iconset" -o "$app_dir/Contents/Resources/AppIcon.icns"
 signing_identity="${READECK_SIGN_IDENTITY:--}"
 codesign --force --deep --sign "$signing_identity" "$app_dir"
 codesign --verify --deep --strict "$app_dir"

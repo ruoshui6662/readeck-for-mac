@@ -10,12 +10,22 @@ enum CredentialStore {
             kSecAttrService as String: service,
             kSecAttrAccount as String: server.root.absoluteString
         ]
-        SecItemDelete(query as CFDictionary)
-        var item = query
-        item[kSecValueData as String] = Data(token.utf8)
-        item[kSecAttrAccessible as String] = kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
-        let status = SecItemAdd(item as CFDictionary, nil)
-        guard status == errSecSuccess else { throw KeychainError(status: status) }
+        let data = Data(token.utf8)
+        try upsert(update: {
+            SecItemUpdate(query as CFDictionary, [kSecValueData as String: data] as CFDictionary)
+        }, add: {
+            var item = query
+            item[kSecValueData as String] = data
+            item[kSecAttrAccessible as String] = kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
+            return SecItemAdd(item as CFDictionary, nil)
+        })
+    }
+
+    /// Retain the existing item's access controls instead of deleting it.
+    static func upsert(update: () -> OSStatus, add: () -> OSStatus) throws {
+        let status = update()
+        let result = status == errSecItemNotFound ? add() : status
+        guard result == errSecSuccess else { throw KeychainError(status: result) }
     }
 
     static func load(for server: ServerAddress) -> String? {

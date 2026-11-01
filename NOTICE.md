@@ -5,3 +5,5 @@ Readeck Mac 是独立客户端，使用 Readeck API。上游项目：<https://co
 微信文章类型适配参考 [wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter)；其 MIT 许可证及版权声明存于 `ReadeckMac/Sources/ReadeckMac/Resources/Licenses/wechat-article-exporter.txt`。
 
 SwiftSoup 的 MIT 许可证及版权声明存于 `ReadeckMac/Sources/ReadeckMac/Resources/Licenses/SwiftSoup.txt`。内置艺术封面的来源、元数据及许可见 `ReadeckMac/Sources/ReadeckMac/Resources/Artwork/CREDITS.md`。
+
+应用图标改自 Readeck 的 Logo，版权 © 2021 Olivier Meunier，AGPL-3.0-only；来源及处理说明见 `ReadeckMac/Sources/ReadeckMac/Resources/Branding/CREDITS.md`。

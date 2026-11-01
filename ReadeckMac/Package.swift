@@ -8,7 +8,7 @@ let package = Package(
     products: [.executable(name: "ReadeckMac", targets: ["ReadeckMac"])],
     dependencies: [.package(url: "https://github.com/scinfu/SwiftSoup.git", exact: "2.14.3")],
     targets: [
-        .executableTarget(name: "ReadeckMac", dependencies: ["SwiftSoup"], resources: [.copy("Resources/Artwork"), .copy("Resources/Licenses"), .process("Resources/en.lproj"), .process("Resources/zh-Hans.lproj")], linkerSettings: [
+        .executableTarget(name: "ReadeckMac", dependencies: ["SwiftSoup"], resources: [.copy("Resources/Artwork"), .copy("Resources/Branding"), .copy("Resources/Licenses"), .process("Resources/en.lproj"), .process("Resources/zh-Hans.lproj")], linkerSettings: [
             .linkedFramework("SwiftUI"),
             .linkedFramework("WebKit"),
             .linkedFramework("CryptoKit"),
