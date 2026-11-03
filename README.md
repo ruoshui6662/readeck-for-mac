@@ -1,5 +1,7 @@
 # Readeck Mac
 
+[简体中文](README.md) | [English](README.en.md)
+
 面向自托管 Readeck 的原生 macOS 稍后阅读客户端。使用 SwiftUI、WebKit 和 Readeck API，支持资料库整理、阅读设置、划线与批注，以及断线后的本地待同步队列。
 
 项目仍在开发中；站点采集与 NAS 同步在不同环境下可能存在限制。小红书采集暂缓，CSDN 适配暂未完成。
